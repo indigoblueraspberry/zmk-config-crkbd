@@ -33,6 +33,18 @@
             tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
+
+        cont_press: cont_press {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CONT_PRESS";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            hold-trigger-key-positions = <34>;
+        };
     };
 
     keymap {
