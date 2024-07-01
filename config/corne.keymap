@@ -88,10 +88,10 @@
 
         layer_3 {
             bindings = <
-  &none  &none  &kp LS(LA(LC(MINUS)))          &none                      &none    &none  &none                      &none                 &none  &none
-  &none  &none  &kp LS(LA(LC(LEFT_BRACKET)))   &kp LS(LA(LC(LG(EQUAL))))  &none    &none  &kp LS(LA(LC(EQUAL)))      &kp LS(LA(LC(BSLH)))  &none  &none
-  &none  &none  &kp LS(LA(LC(RIGHT_BRACKET)))  &none                      &none    &none  &kp LS(LA(LC(LG(MINUS))))  &none                 &none  &none
-                &none                          &none                      &none    &none  &none                      &none
+  &none  &none  &kp LS(LA(N2))  &none           &none    &none  &none           &none           &none  &none
+  &none  &none  &kp LS(LA(N3))  &kp LS(LA(N7))  &none    &none  &kp LS(LA(N1))  &kp LS(LA(N5))  &none  &none
+  &none  &none  &kp LS(LA(N4))  &none           &none    &none  &kp LS(LA(N6))  &none           &none  &none
+                &none           &none           &none    &none  &none           &none
             >;
         };
 
