@@ -115,10 +115,10 @@
 
         layer_6 {
             bindings = <
-  &sys_reset  &trans         &trans     &trans          &trans    &none       &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none
-  &kp LCMD    &kp LEFT_ALT   &kp LCTRL  &kp LEFT_SHIFT  &trans    &none       &kp C_PREV  &kp C_VOLUME_DOWN     &kp C_VOL_UP          &kp C_NEXT
-  &trans      &kp RIGHT_ALT  &trans     &trans          &trans    &none       &kp C_MUTE  &kp K_MUTE2           &none                 &none
-                             &trans     &trans          &trans    &kp C_STOP  &kp C_PLAY  &kp K_MUTE
+  &sys_reset  &trans         &trans     &trans          &trans    &none       &none             &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none
+  &kp LCMD    &kp LEFT_ALT   &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp F4      &kp C_PREV        &kp C_VOLUME_DOWN     &kp C_VOL_UP          &kp C_NEXT
+  &trans      &kp RIGHT_ALT  &trans     &trans          &trans    &none       &kp K_PREV        &none                 &none                 &kp K_NEXT
+                             &trans     &trans          &trans    &kp K_STOP  &kp K_PLAY_PAUSE  &kp C_MUTE
             >;
         };
 
