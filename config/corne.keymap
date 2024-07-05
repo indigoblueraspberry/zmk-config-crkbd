@@ -89,7 +89,7 @@
         layer_3 {
             bindings = <
   &none  &none  &kp LS(LA(F))  &none          &none    &none  &none          &none          &kp LS(LA(Y))  &none
-  &none  &none  &kp LS(LA(S))  &kp LS(LA(T))  &none    &none  &kp LS(LA(N))  &kp LS(LA(E))  &none          &none
+  &none  &none  &kp LS(LA(S))  &kp LS(LA(R))  &none    &none  &kp LS(LA(N))  &kp LS(LA(E))  &none          &none
   &none  &none  &kp LS(LA(C))  &none          &none    &none  &kp LS(LA(M))  &none          &none          &none
                 &none          &none          &none    &none  &none          &none
             >;
