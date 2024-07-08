@@ -113,7 +113,7 @@
 
         layer_4 {
             bindings = <
-  &sys_reset  &trans         &trans     &trans          &trans    &kp LC(LS(Z))  &kp LC(V)  &kp LC(C)  &kp LC(X)  &kp LC(Z)
+  &sys_reset  &trans         &trans     &trans          &trans    &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)
   &kp LCMD    &kp LEFT_ALT   &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp ESC        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT
   &trans      &kp RIGHT_ALT  &trans     &trans          &trans    &kp RS(INS)    &kp HOME   &kp PG_DN  &kp PG_UP  &kp END
                              &trans     &trans          &trans    &trans         &trans     &trans
