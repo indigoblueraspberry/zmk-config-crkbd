@@ -115,10 +115,10 @@
 
         layer_3 {
             bindings = <
-  &none  &none  &kp LC(LA(E))  &none          &none     &none   &none          &none          &kp LC(LA(O))  &none
-  &none  &none  &kp LC(LA(D))  &kp LC(LA(F))  &none     &none   &kp LC(LA(J))  &kp LC(LA(K))  &none          &none
-  &none  &none  &kp LC(LA(C))  &none          &none     &none   &kp LC(LA(M))  &none          &none          &none
-                &trans         &trans         &trans    &trans  &trans         &trans
+  &none  &none  &kp LC(LA(LS(E)))  &none              &none     &none   &none              &none              &kp LC(LA(LS(O)))  &none
+  &none  &none  &kp LC(LA(LS(D)))  &kp LC(LA(LS(F)))  &none     &none   &kp LC(LA(LS(J)))  &kp LC(LA(LS(K)))  &none              &none
+  &none  &none  &kp LC(LA(LS(C)))  &none              &none     &none   &kp LC(LA(LS(M)))  &none              &none              &none
+                &trans             &trans             &trans    &trans  &trans             &trans
             >;
         };
 
