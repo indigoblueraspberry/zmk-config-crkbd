@@ -50,6 +50,11 @@
             layers = <0>;
             timeout-ms = <25>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
@@ -96,10 +101,10 @@
 
             label = "Raise";
             bindings = <
-  &kp Q             &kp W             &kp F              &kp P                   &kp G              &kp J   &kp L                   &kp U              &kp Y             &kp SQT
-  &hold_tap LCMD A  &hold_tap LALT R  &hold_tap LCTRL S  &hold_tap LEFT_SHIFT T  &kp D              &kp H   &hold_tap LEFT_SHIFT N  &hold_tap LCTRL E  &hold_tap RALT I  &hold_tap LCMD O
-  &kp Z             &kp X             &kp C              &kp V                   &hold_layer 1 B    &kp K   &kp M                   &kp COMMA          &kp DOT           &kp FSLH
-                                      &trans             &trans                  &trans             &trans  &trans                  &trans
+  &kp Q             &kp W             &kp F              &kp P                   &kp G     &kp J   &kp L                   &kp U              &kp Y             &kp SQT
+  &hold_tap LCMD A  &hold_tap LALT R  &hold_tap LCTRL S  &hold_tap LEFT_SHIFT T  &kp D     &kp H   &hold_tap LEFT_SHIFT N  &hold_tap LCTRL E  &hold_tap RALT I  &hold_tap LCMD O
+  &kp Z             &kp X             &kp C              &kp V                   &kp B     &kp K   &kp M                   &kp COMMA          &kp DOT           &kp FSLH
+                                      &trans             &trans                  &trans    &trans  &trans                  &trans
             >;
         };
 
