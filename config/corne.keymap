@@ -324,6 +324,19 @@
         };
     };
 
+    macros {
+        n_tilde: n_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LA(KP_N0) &kp LA(KP_N2) &kp LA(KP_N4) &kp LA(KP_N1)>,
+                <&macro_release>;
+
+            label = "N_TILDE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
