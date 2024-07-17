@@ -246,6 +246,36 @@
             bindings = <&hml_repeat LS(LCTRL) 0>;
             key-positions = <12 13>;
         };
+
+        cut_win {
+            bindings = <&kp LC(X)>;
+            key-positions = <23 21>;
+        };
+
+        copy_win {
+            bindings = <&kp LC(INS)>;
+            key-positions = <21 22>;
+        };
+
+        paste_win {
+            bindings = <&kp LS(INS)>;
+            key-positions = <23 22>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <6 8>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <6 7>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
