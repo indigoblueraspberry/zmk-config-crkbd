@@ -329,9 +329,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N1>,
-                <&macro_release &kp LALT>;
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N1>,
+                <&macro_release>,
+                <&kp LALT>;
 
             label = "N_TILDE";
         };
@@ -453,10 +456,10 @@
 
         layer_10 {
             bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
-  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
-  &trans    &trans  &trans    &trans    &trans       &trans     &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE
-                    &trans    &trans    &trans       &trans     &trans     &trans
+  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
+  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &n_tilde  &kp LBKT         &kp RBKT  &kp BSLH
+  &trans    &trans  &trans    &trans    &trans       &trans     &kp PLUS  &kp LBRC         &kp RBRC  &kp PIPE
+                    &trans    &trans    &trans       &trans     &trans    &trans
             >;
         };
     };
