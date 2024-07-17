@@ -141,7 +141,7 @@
         };
 
         rpar {
-            bindings = <&hmr_lpar_lt RS(LCTRL) 0>;
+            bindings = <&hmr_rpar_gt RS(LALT) 0>;
             key-positions = <17 18>;
         };
     };
