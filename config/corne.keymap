@@ -116,6 +116,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        rbkt_rbrc: rbkt_rbrc {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RBKT_RBRC";
+            bindings = <&kp RBKT>, <&kp RBRC>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
@@ -157,6 +166,11 @@
         lbkt {
             bindings = <&lbkt_lbrc>;
             key-positions = <26 27>;
+        };
+
+        rbkt {
+            bindings = <&rbkt_rbrc>;
+            key-positions = <27 28>;
         };
     };
 
