@@ -317,6 +317,11 @@
             bindings = <&kp TILDE>;
             key-positions = <14 24>;
         };
+
+        accents {
+            bindings = <&mo 10>;
+            key-positions = <24 25>;
+        };
     };
 
     keymap {
