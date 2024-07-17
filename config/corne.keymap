@@ -319,7 +319,7 @@
         };
 
         accents {
-            bindings = <&mo 10>;
+            bindings = <&sl 10>;
             key-positions = <24 25>;
         };
     };
