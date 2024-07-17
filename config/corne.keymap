@@ -177,6 +177,41 @@
             bindings = <&kp CARET>;
             key-positions = <5 15>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <6 16>;
+        };
+
+        star {
+            bindings = <&kp STAR>;
+            key-positions = <7 17>;
+        };
+
+        amps {
+            bindings = <&kp AMPS>;
+            key-positions = <8 18>;
+        };
+
+        under {
+            bindings = <&kp UNDER>;
+            key-positions = <15 25>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <26 16>;
+        };
+
+        fslh {
+            bindings = <&kp FSLH>;
+            key-positions = <17 27>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <18 28>;
+        };
     };
 
     keymap {
