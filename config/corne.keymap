@@ -238,12 +238,12 @@
         };
 
         tab {
-            bindings = <&hml LA(LS(N0)) TAB>;
+            bindings = <&hml LS(LALT) TAB>;
             key-positions = <11 12>;
         };
 
         repeat {
-            bindings = <&hml_repeat LC(LS(N0)) 0>;
+            bindings = <&hml_repeat LS(LCTRL) 0>;
             key-positions = <12 13>;
         };
     };
