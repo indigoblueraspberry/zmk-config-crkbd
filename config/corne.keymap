@@ -167,6 +167,21 @@
             key-positions = <0 9>;
         };
 
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <6 8>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <6 7>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <7 8>;
+        };
+
         lpar {
             bindings = <&hmr_lpar_lt RS(LCTRL) 0>;
             key-positions = <16 17>;
@@ -260,21 +275,6 @@
         paste_win {
             bindings = <&kp LS(INS)>;
             key-positions = <23 22>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <6 8>;
-        };
-
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <6 7>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <7 8>;
         };
     };
 
