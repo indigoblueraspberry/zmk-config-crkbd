@@ -317,6 +317,11 @@
             bindings = <&kp TILDE>;
             key-positions = <14 24>;
         };
+
+        tmux_leading {
+            bindings = <&kp LC(A)>;
+            key-positions = <34 31>;
+        };
     };
 
     keymap {
