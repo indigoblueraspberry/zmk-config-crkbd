@@ -248,8 +248,8 @@
             key-positions = <1 2>;
         };
 
-        space {
-            bindings = <&kp SPACE>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <2 3>;
         };
 
@@ -321,6 +321,11 @@
         tmux_leading {
             bindings = <&kp LC(A)>;
             key-positions = <34 31>;
+        };
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <14 13>;
         };
     };
 
