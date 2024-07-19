@@ -263,6 +263,11 @@
             key-positions = <12 13>;
         };
 
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <14 13>;
+        };
+
         cut_win {
             bindings = <&kp LC(X)>;
             key-positions = <23 21>;
@@ -321,11 +326,6 @@
         tmux_leading {
             bindings = <&kp LC(A)>;
             key-positions = <34 31>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <14 13>;
         };
     };
 
