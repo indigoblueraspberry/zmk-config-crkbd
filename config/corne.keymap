@@ -327,6 +327,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <34 31>;
         };
+
+        num_layer {
+            bindings = <&to 7>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
