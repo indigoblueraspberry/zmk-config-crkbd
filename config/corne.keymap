@@ -332,6 +332,32 @@
             bindings = <&kp LC(A)>;
             key-positions = <34 31>;
         };
+
+        R_in_pipe {
+            bindings = <&R_in_pipe>;
+            key-positions = <16 18>;
+        };
+
+        R_pipe {
+            bindings = <&R_pipe>;
+            key-positions = <3 16>;
+        };
+    };
+
+    macros {
+        R_in_pipe: R_in_pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp PRCNT &kp I &kp N &kp PRCNT>;
+            label = "R_IN_PIPE";
+        };
+
+        R_pipe: R_pipe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp PRCNT &kp GT &kp PRCNT>;
+            label = "R_PIPE";
+        };
     };
 
     keymap {
