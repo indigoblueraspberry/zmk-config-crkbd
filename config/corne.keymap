@@ -348,7 +348,7 @@
         R_in_pipe: R_in_pipe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp PRCNT &kp J &kp L &kp PRCNT>;
+            bindings = <&none &kp PRCNT &kp L &kp J &kp PRCNT>;
             label = "R_IN_PIPE";
         };
 
