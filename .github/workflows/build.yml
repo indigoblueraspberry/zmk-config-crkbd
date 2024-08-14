@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: indigoblueraspberry/zmk-capslock/.github/workflows/build-user-config.yml@main
+    uses: indigoblueraspberry/zmk/.github/workflows/build-user-config.yml@main
