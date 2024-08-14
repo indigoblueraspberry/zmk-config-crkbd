@@ -13,9 +13,9 @@
 };
 
 &caps_word {
-    continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON SEMI>; // <--- prevent SEMICOLON ("o") from deactivating
-    also-mod-list = <SEMICOLON SEMI>;                             // <--- capitalize SEMICOLON ("o")
-    break-list = <P>;                                             // <--- deactivate on P (";")
+    continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON>;
+    also-mod-list = <SEMICOLON>;
+    break-list = <P>;
 };
 
 / {
