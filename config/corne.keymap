@@ -12,6 +12,12 @@
     chosen { zmk,matrix_transform = &five_column_transform; };
 };
 
+&caps_word {
+    continue-list = <UNDERSCORE BACKSPACE DELETE SEMICOLON SEMI>; // <--- prevent SEMICOLON ("o") from deactivating
+    also-mod-list = <SEMICOLON SEMI>;                             // <--- capitalize SEMICOLON ("o")
+    break-list = <P>;                                             // <--- deactivate on P (";")
+};
+
 / {
     behaviors {
         hold_layer: hold_layer {
