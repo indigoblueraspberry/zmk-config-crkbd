@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/indigoblueraspberry
   projects:
-    - name: zmk
+    - name: zmk-capslock
       remote: zmkfirmware
-      revision: main
+      revision: caps-word-for-alt-layouts
       import: app/west.yml
   self:
     path: config
