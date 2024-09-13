@@ -288,6 +288,11 @@
             key-positions = <23 22>;
         };
 
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <24 23>;
+        };
+
         at {
             bindings = <&kp AT>;
             key-positions = <1 11>;
