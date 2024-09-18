@@ -248,8 +248,8 @@
             key-positions = <18 28>;
         };
 
-        esc {
-            bindings = <&kp CAPS>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <1 2>;
         };
 
@@ -286,11 +286,6 @@
         paste_win {
             bindings = <&kp LS(INS)>;
             key-positions = <23 22>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <24 23>;
         };
 
         at {
