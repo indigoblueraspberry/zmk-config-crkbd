@@ -374,7 +374,7 @@
             bindings = <
   &kp Q        &hml RALT W      &kp E               &kp R                &kp T                &kp Y                &kp U                    &kp I              &hmr LALT O        &kp SQT
   &hml LCMD A  &hml LALT S      &hml LCTRL D        &hml LEFT_SHIFT F    &kp G                &kp H                &hmr LEFT_SHIFT J        &hmr LCTRL K       &hmr RALT L        &hmr LCMD SEMI
-  &kp Z        &hold_layer 3 X  &kp C               &kp V                &hold_layer 1 B      &hold_layer 1 N      &kp M                    &kp COMMA          &hold_layer 3 DOT  &kp FSLH
+  &kp Z        &hold_layer 3 X  &kp C               &kp V                &hold_layer 1 B      &hold_layer 1 N      &kp M                    &kp COMMA          &hold_layer 3 DOT  &kp KP_SLASH
                                 &hold_layer 6 CAPS  &hold_layer 4 SPACE  &hold_layer 5 TAB    &hold_layer 8 ENTER  &hold_layer 7 BACKSPACE  &hold_layer 9 DEL
             >;
         };
@@ -406,7 +406,7 @@
             bindings = <
   &kp Q        &kp W        &kp F         &kp P              &kp G     &kp J   &kp L              &kp U         &kp Y        &kp SQT
   &hml LCMD A  &hml LALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp D     &kp H   &hmr LEFT_SHIFT N  &hmr LCTRL E  &hmr RALT I  &hmr LCMD O
-  &kp Z        &kp X        &kp C         &kp V              &kp B     &kp K   &kp M              &kp COMMA     &kp DOT      &kp FSLH
+  &kp Z        &kp X        &kp C         &kp V              &kp B     &kp K   &kp M              &kp COMMA     &kp DOT      &kp KP_SLASH
                             &trans        &trans             &trans    &trans  &trans             &trans
             >;
         };
